@@ -8,12 +8,12 @@ Pitbull.prototype.constructor = Pitbull;
 
 Pitbull.prototype.step = function(){
 	Dancer.prototype.step.call(this);
-	var grow = function(){
-		this.$node.animate({
-		width: 32px;
-		height: 32px;
-	},1000, grow();)
-
-	};
+	//var grow = function(){
+	//	this.$node.animate({
+	//	width: 32px;
+	//	height: 32px;
+	//},1000, grow();)
+  //
+	//};
 
 };
