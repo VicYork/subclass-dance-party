@@ -10,8 +10,6 @@ Pitbull.prototype.step = function () {
   Dancer.prototype.step.call(this);
 
   this.$node.animate({
-    //top : "",
-    //bottom: "",
     left: "toggle"
   }, 5000, function () {
   });

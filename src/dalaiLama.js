@@ -12,5 +12,17 @@ DalaiLama.prototype.constructor = DalaiLama;
 
 DalaiLama.prototype.step = function () {
   Dancer.prototype.step.call(this);
-  this.$node.toggle();
+  //this.$node.toggle();
+
+  this.$node.animate({
+    width: "70%",
+    height: "70%"
+    //opacity: 0.4,
+    //marginLeft: "0.6in",
+    //fontSize: "3em",
+    //borderWidth: "10px"
+  }, 1500, function () {
+  }).toggle();
+
+
 };
